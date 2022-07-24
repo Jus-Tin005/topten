@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&family=Quicksand:wght@300&family=Source+Sans+Pro:ital,wght@0,300;1,300&display=swap'); */
+body,html {
+         font-family: 'Quicksand', sans-serif;
+         padding: 0;
+         margin: 0;
+}
+
+
+:root {
+        --color-1:#F6F5F4;
+        --color-2:#A50064;
+        --color-3:#017CBA;
+}
+
+*{
+        box-sizing: border-box;
+}
+
+
+
+/* Start Header  */
+
+header {
+        height: 100vh;
+        background:linear-gradient(50deg, rgba(0,12,15,0.48),rgba(16,16,0,0.57)),url(../assets/img/banner1.jpg);
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+        background-position: center;
+        /* background-attachment: fixed; */
+
+        position: relative;
+
+
+
+}
+
+/* Start navbar  */
+
+.navbar {
+        background-color: var(--color-1);
+        padding: 10px 5px;
+
+}
+
+.navbuttons {
+        background-color: var(--color-2);
+        padding: 5px 8px;
+        transition: all .7s;
+}
+
+
+.navMenuItems {
+        font-size: 16px;
+        letter-spacing: 1px;
+        user-select: none;
+}
+
+.navMenuItems:hover {
+        color: darkmagenta;
+}
+
+.hamburgermenus1,.hamburgermenus2,.hamburgermenus3 {
+        width: 25px;
+        height: 5px;
+        margin: 2px;
+}
+
+.navbar-toggler .hamburgermenus1{
+transform: rotate(-45deg) translate(-5px, 5px);
+}
+
+
+
+.navbar-toggler .hamburgermenus2{
+        opacity: 0;
+        }
+
+.navbar-toggler .hamburgermenus3{
+                transform: rotate(45deg) translate(-5px, -5px);
+                }
+
+
+
+
+/* End navbar */
+
+
+
+
+/* Start banner */
+.banners {
+        width: 80%;
+
+        position: absolute;
+        left: 50%;
+        top: 50%;
+
+        transform: translate(-50%,-50%);
+
+
+
+}
+
+
+
+
+/* End banner */
+
+
+/* End Header  */
+
+/* Start About Section  */
+
+/* End About Section  */
+
+/* Start  Footer Section  */
+.copyrights {
+        background-color: beige;
+        margin: 2px;
+        font-size: 20px;
+}
+
+/* End  Footer Section  */
